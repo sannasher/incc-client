@@ -1,8 +1,8 @@
 // src/components/maincomponents/NavigationComponents/Menu.js
 
-import React from 'react';
-import MenuItem from './MenuItem';
-import './Menu.css';
+import React from "react";
+import MenuItem from "./MenuItem";
+import "./Menu.css";
 
 const Menu = () => {
   return (
