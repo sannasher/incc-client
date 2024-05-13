@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa655995.css",
+    "main.js": "/static/js/main.16c9270f.js",
+    "static/media/handsthree.png": "/static/media/handsthree.dccf2ec6908ab568bf7c.png",
+    "static/media/branchfive.png": "/static/media/branchfive.e4bc218dcbf58a3e2145.png",
+    "index.html": "/index.html",
+    "main.fa655995.css.map": "/static/css/main.fa655995.css.map",
+    "main.16c9270f.js.map": "/static/js/main.16c9270f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa655995.css",
+    "static/js/main.16c9270f.js"
+  ]
+}
