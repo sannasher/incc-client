@@ -1,0 +1,14 @@
+/*incc/src/maincomponents/CalendarComponents/categories/mommyandme/MommyAndMeEvent.css */
+
+.mommy-and-me-event {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.mommy-and-me-event:hover {
+  background-color: #e0e0e0;
+}

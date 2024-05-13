@@ -1,0 +1,38 @@
+.center-hours {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+
+.hours {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px;
+  background-color: #c7522a;
+  border-radius: 10px;
+  color: white;
+}
+
+.days {
+  margin: auto;
+  text-align: center; /* Center the content horizontally */
+}
+
+.day {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; /* Add padding for spacing */
+    background-color: #f39c7d;
+  
+
+}
+
+.day-name,
+.day-time {
+  display: inline;
+  margin: 0; /* Remove default margin */
+  margin-right: 10px; /* Add space between day name and time */
+}

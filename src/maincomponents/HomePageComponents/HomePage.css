@@ -1,0 +1,119 @@
+/* incc/src/maincomponents/HomePageComponents/HomePage.css */
+
+/* HomePage.css */
+
+.section {
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.sectionone::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("branchfive.png");
+  background-size: cover;
+  background-repeat: no-repeat; /* Prevent background from repeating horizontally */
+  background-position: -200px center; /* Move the background image towards the left */
+  opacity: 0.05; /* Adjust opacity as needed */
+  z-index: 1;
+}
+
+#section1 {
+  display: flex;
+  margin-top: 70px;
+  background-color: #fbf2c4;
+}
+
+.sectiononeleft {
+  width: 60%;
+}
+
+.sectiononelefttop {
+  height: 60%;
+  width: 80%;
+  background-color: #97bc62;
+  border-radius: 0 150px 150px 0;
+  outline: 8px solid white; /* Define the border using outline */
+  outline-offset: -20px; /* Set a negative value to create space between outline and element */
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  padding: 20px; /* Add padding to create space between text and container edges */
+  text-align: center;
+  padding: 40px;
+  font-weight: bold;
+  margin-left: -1000px;
+  transition: margin-left 2s;
+}
+
+.icnanassauword {
+  font-size: 90px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.communityword {
+  font-size: 90px;
+  margin: 0;
+}
+
+.centerword {
+  font-size: 90px;
+  margin: 0;
+}
+
+.hereword {
+  text-align: center; /* Center align the text */
+}
+
+.sectiononeleftbottom {
+  background-color: white;
+}
+
+.sectiononeright {
+  width: 30%;
+  margin: 0;
+  background-color: #fbf2c4;
+}
+
+#section2 {
+  background-color: #c7522a;
+}
+
+.mission-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Set height to match the section height */
+}
+
+.mission-text {
+  width: 50%; /* Adjust width for text */
+}
+
+.mission-image {
+  width: 50%; /* Set width to 50% to take up the right half */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Add overflow hidden to prevent image overflow */
+}
+
+.mission-image img {
+  width: 100%; /* Set image width to 100% of its container */
+  height: 100%; /* Set image height to 100% of its container */
+  object-fit: cover; /* Ensure the image covers the entire container */
+  transform: scaleX(-1);
+}
+
+#section3 {
+  background-color: #a66f6f;
+}
