@@ -5,8 +5,7 @@
 .calendar-page {
   text-align: center; /* Center-align the content */
   margin: 20px;
-  background-color:  #fbf2c4;
-
+  background-color: #fbf2c4;
 }
 
 .calendar-nav {
@@ -25,7 +24,8 @@
   color: white;
   text-transform: uppercase; /* Make the text uppercase */
   font-weight: bolder; /* Optionally, make the text bold */
-  border-radius: 20px; /* Rounded corners */
+  border: 1px solid;
+  border-radius: 5px; /* Rounded corners */
 }
 
 /* Styles for the header section containing the days of the week */
@@ -58,7 +58,7 @@
 .calendar-day {
   position: relative; /* Enable positioning for absolute positioning of day number */
   background-color: #dde5b4; /* Set background color */
-  border-radius: 5px; /* Apply border radius for rounded corners */
+  border-radius: 20px; /* Apply border radius for rounded corners */
   padding-left: 20px; /* Adjusted padding to increase cell size */
   padding-right: 20px;
   padding-top: 50px;

@@ -15,7 +15,7 @@
 
 .modal-content {
   background-color: black;
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
   width: 50%;
   max-height: 70%;
@@ -24,7 +24,7 @@
 
 .modal {
   padding-top: 10px;
-  background-color: #f39c7d;
+  background-color: rgb(202, 227, 205);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -34,14 +34,67 @@
 }
 
 .event-name {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   padding: 20px;
-  margin: 10px;
+  margin-bottom: 5px;
   text-align: center;
   color: #c7522a;
+  text-transform: uppercase;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.event-time {
+  width: 80%;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  text-align: center;
+  background-color: #97bc62; /* Change background color for days with events */
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.event-location {
+  width: 80%;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: #97bc62; /* Change background color for days with events */
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.form {
+  width: 90%;
+}
+
+.form iframe {
+  /* Make the iframe wider */
+  width: 100%; /* Adjust the width as needed */
+  max-width: 800px; /* Set a maximum width to prevent it from becoming too wide */
+  height: 400px; /* Adjust the height as needed */
+  display: block;
+}
+
+.event-note {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .closeButton {
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 80%;
+  padding: 10px;
+  background-color: #c7522a;
+  color: white;
+
 }

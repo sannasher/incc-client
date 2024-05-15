@@ -84,7 +84,7 @@
 }
 
 #section2 {
-  background-color: #c7522a;
+  background-color: #f39c7d;
 }
 
 .mission-content {
@@ -96,6 +96,18 @@
 
 .mission-text {
   width: 50%; /* Adjust width for text */
+  text-align: center;
+  margin: 5% 10% 10% 10%;
+  font-size: 25px;
+}
+
+.mission-text-title {
+  font-size: 46px;
+  margin-bottom: 50px;
+  color: white;
+  background-color: #c7522a; /* Keep original color */
+
+  border-radius: 5px;
 }
 
 .mission-image {
@@ -115,5 +127,25 @@
 }
 
 #section3 {
-  background-color: #a66f6f;
+  background-color: #97bc62;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  background-color: #fbf2c4;
+  width: 50%; /* Adjust width for text */
+  text-align: center;
+  margin: 5% 10% 10% 10%;
+  font-size: 25px;
+}
+
+#section3 iframe {
+  /* Make the iframe wider */
+  width: 100%; /* Adjust the width as needed */
+  max-width: 800px; /* Set a maximum width to prevent it from becoming too wide */
+  height: 400px; /* Adjust the height as needed */
+  margin: 0 auto; /* Center the iframe horizontally */
+  display: block;
 }

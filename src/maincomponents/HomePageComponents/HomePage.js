@@ -57,14 +57,15 @@ function HomePage() {
         <div className="divider"></div>
         <div className="mission-content">
           <div className="mission-text">
-            <h2>Our Mission</h2>
+            <h2 className="mission-text-title">Our Mission.</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              The ICNA Nassau Community Center has been a social, cultural, and
+              religious epicenter of the Long Island community for over six years.
+              Our programs, services, and activities are designed based on the
+              needs and wants expressed by our community over the years.
             </p>
           </div>
+          s
           <div className="mission-image">
             <img src={require("./branchfive.png")} alt="Mission Image" />
           </div>
@@ -75,8 +76,9 @@ function HomePage() {
       </div>
 
       <div className="section" id="section3">
-        <h1>Section 3</h1>
-        <p>Welcome to Section 3</p>
+        <div className = "contact">
+        <h1>Contact Us!</h1>
+        </div>
         {/* Embed Google Form */}
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSeUP5ixNKc7t-PpcyLrLtnkqsCFNH3jDOctBr1hcHdoNeEtKA/viewform?embedded=true"

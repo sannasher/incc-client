@@ -21,11 +21,11 @@ function App() {
       <div className="App">
         <Menu />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/calendar" element={<CalendarPage />} />
+          <Route path="/incc-client/" element={<HomePage />} />
+          <Route path="/incc-client/about" element={<AboutPage />} />
+          <Route path="/incc-client/calendar" element={<CalendarPage />} />
           <Route
-            path="/admin-authentication"
+            path="/incc-client/admin-authentication"
             element={
               <AdminAuthentication onAuthenticated={handleAuthenticated} />
             }

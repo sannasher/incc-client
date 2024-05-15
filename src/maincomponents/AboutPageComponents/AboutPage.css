@@ -3,10 +3,10 @@
 .section-one,
 .section-two {
   scroll-snap-align: start; /* Ensure smooth scrolling */
+  height: 60vh;
 }
 
 .section-one {
-  height:60vh; /* Make the page height equal to the viewport height */
   background-color: #fbf2c4;
   display: flex;
   flex-direction: column; /* Ensure flex items are stacked vertically */
@@ -72,6 +72,17 @@
   height: 30%; /* Set the height of the third subsection to 30% */
 }
 
-.section-two {
-  background-color: white;
+/* .sectiontwo {
+  margin-top: 40px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
+
+.sectiontwo-content{
+  background-color: blue;
+  width: 50%;
+} */

@@ -21,11 +21,18 @@ function AboutPage() {
           <div className="sub-section sub-section-three"></div>
         </div>
       </section>
+
       <section className="section-two">
-        <div className="section-content">
-          {/* Content for the second section */}
+        <div className="sectiontwo-content">
+          <h2 className = "sectiontwo-content-title">We are there to help.</h2>
+          <p>Our team has been working closely with a range of community leaders to address the challenges our community is facing.</p>
         </div>
+        <div className="sectiontwo-else"></div>
+
+        
       </section>
+
+      
     </div>
   );
 }
