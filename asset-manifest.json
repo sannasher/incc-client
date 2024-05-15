@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/incc-client/static/css/main.bcb84066.css",
+    "main.js": "/incc-client/static/js/main.a0d787a1.js",
+    "static/media/handsthree.png": "/incc-client/static/media/handsthree.dccf2ec6908ab568bf7c.png",
+    "static/media/branchfive.png": "/incc-client/static/media/branchfive.e4bc218dcbf58a3e2145.png",
+    "index.html": "/incc-client/index.html",
+    "main.bcb84066.css.map": "/incc-client/static/css/main.bcb84066.css.map",
+    "main.a0d787a1.js.map": "/incc-client/static/js/main.a0d787a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcb84066.css",
+    "static/js/main.a0d787a1.js"
+  ]
+}
